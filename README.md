@@ -33,7 +33,7 @@ Prerequisites: Xcode Command Line Tools (`xcode-select --install`) and internet 
 
 ```bash
 # 1) Fully quit Hermes.app (Cmd+Q), then in a real terminal:
-curl -fsSL https://raw.githubusercontent.com/<YOUR-USER>/hermes-intel-mac-fix/main/fix-hermes-openssl.sh -o /tmp/fix-hermes-openssl.sh
+curl -fsSL https://raw.githubusercontent.com/daixun0625/hermes-intel-mac-fix-public/main/fix-hermes-openssl.sh -o /tmp/fix-hermes-openssl.sh
 bash /tmp/fix-hermes-openssl.sh
 # 2) Reopen Hermes.app
 ```
